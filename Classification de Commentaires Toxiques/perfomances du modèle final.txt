@@ -1,0 +1,46 @@
+🔍 Rapport de classification après mise à jour des catégories :
+
+📌 Catégorie: TOXIC
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.97     28996
+           1       0.77      0.87      0.81      3719
+
+    accuracy                           0.95     32715
+   macro avg       0.87      0.92      0.89     32715
+weighted avg       0.96      0.95      0.96     32715
+
+--------------------------------------------------
+📌 Catégorie: obscene
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99     30464
+           1       0.92      0.79      0.85      2251
+
+    accuracy                           0.98     32715
+   macro avg       0.95      0.89      0.92     32715
+weighted avg       0.98      0.98      0.98     32715
+
+--------------------------------------------------
+📌 Catégorie: insult
+              precision    recall  f1-score   support
+
+           0       0.98      0.99      0.98     30497
+           1       0.85      0.70      0.77      2218
+
+    accuracy                           0.97     32715
+   macro avg       0.91      0.84      0.87     32715
+weighted avg       0.97      0.97      0.97     32715
+
+--------------------------------------------------
+📌 Catégorie: identity_hate
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99     31660
+           1       0.85      0.69      0.76      1055
+
+    accuracy                           0.99     32715
+   macro avg       0.92      0.84      0.88     32715
+weighted avg       0.99      0.99      0.99     32715
+
+--------------------------------------------------
